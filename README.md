@@ -22,4 +22,4 @@ For a detailed explanation on how things work, check out the [guide](http://vuej
 
 # part
 part
-add a new line 
+dev a new line 
