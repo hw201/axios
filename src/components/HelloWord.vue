@@ -3,24 +3,23 @@
 </template>
 
 <script>
-import axios from "axios";
+import axios from 'axios'
 
 export default {
-  name: "HelloWord",
+  name: 'HelloWord',
   data() {
     return {
-      category: "",
-    };
+      category: ''
+    }
   },
   created() {
     axios({
-      url: "http://123.207.32.32:8000/category",
+      url: 'http://123.207.32.32:8000/category'
     }).then((res) => {
-      console.log(res);
-      this.category = res;
-    });
-  },
-};
+      this.category = res
+    })
+  }
+}
 </script>
 
 <style>
